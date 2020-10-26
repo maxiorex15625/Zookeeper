@@ -1,0 +1,37 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    number = int(input())
+    word = input()
+
+    # write a condition for plurals
+
+
+    print(number, word)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8439
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 14. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    1
+    engineer
+    Correct output:
+    1 engineer
+
+    Your code output:
+
+
+    Error:
+      File "jailed_code", line 2
+        while <= 25:
+               ^
+    SyntaxError: invalid syntax
+  time: Fri, 23 Oct 2020 13:28:08 UTC
+record: -1
